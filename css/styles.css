@@ -488,3 +488,15 @@ a {
     margin-left: 6rem;
   }
 }
+
+/* Callouts */
+
+.callout {
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.callout--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
