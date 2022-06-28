@@ -200,7 +200,7 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   white-space: nowrap;
   text-align: center;
@@ -294,6 +294,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding-left: 0.1rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -537,6 +538,7 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  width: 70%;
 }
 
 .callout--primary {
@@ -750,13 +752,14 @@ nav__brand {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
   max-width: 700px;
   margin: 0 auto;
+  color: var(--color-headings);
 }
 
 @media screen and (min-width: 768px) {
@@ -803,7 +806,7 @@ nav__brand {
 
 /* Showcase Block */
 
-.block-showcase__image < img {
+.block-showcase__image > img {
   width: 100%;
 }
 
@@ -823,7 +826,7 @@ nav__brand {
 
 /* Footer */
 .footer {
-  background: @232323;
+  background: #232323;
 }
 
 .footer__section {
