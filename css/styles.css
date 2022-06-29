@@ -629,6 +629,10 @@ a {
   color: #7b858b;
 }
 
+.block--light {
+  background: #fff;
+}
+
 .block--dark .block__heading {
   color: #fff;
 }
@@ -728,6 +732,8 @@ nav__brand {
 
 .hero__image {
   width: 100%;
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 
 @media screen and (min-width: 768px) {
