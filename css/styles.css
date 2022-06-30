@@ -814,6 +814,7 @@ nav__brand {
 
 .block-showcase__image > img {
   width: 100%;
+  margin-right: 5rem;
 }
 
 @media screen and (min-width: 768px) {
