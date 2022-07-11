@@ -538,6 +538,7 @@ a {
   padding: 4rem;
   border-radius: 5px;
   width: 70%;
+  flex-grow: 1;
 }
 
 .callout--primary {
@@ -659,6 +660,12 @@ a {
 
 /* Navigation Bar */
 
+.logo {
+  width: 40%;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
 .nav {
   background: #000;
   display: flex;
@@ -699,7 +706,7 @@ a {
   border-radius: 5px;
 }
 
-nav__brand {
+.nav__brand {
   transform: translateY(5px);
 }
 
@@ -835,6 +842,11 @@ nav__brand {
 }
 
 /* Footer */
+
+.logo__footer {
+  padding-right: 4rem;
+}
+
 .footer {
   background: #232323;
 }
@@ -867,6 +879,7 @@ nav__brand {
   font-size: 2.1rem;
   color: #fff;
   opacity: 0.3;
+  padding-right: 4rem;
 }
 
 .footer a {
