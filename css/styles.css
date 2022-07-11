@@ -16,11 +16,6 @@
 }
 
 /* Typography */
-
-.membership {
-  text-align: center;
-}
-
 ::selection {
   background: var(--color-primary);
   color: #fff;
@@ -808,6 +803,10 @@ nav__brand {
   margin-top: 5rem;
 }
 
+.feature__content {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .feature:nth-of-type(even) .feature__content {
     order: 2;
@@ -928,4 +927,28 @@ nav__brand {
 
 .alexia__image {
   height: 90%;
+}
+
+/* Memberships */
+
+.membership__title {
+  font-size: 4rem;
+}
+
+.membership {
+  text-align: center;
+}
+
+.membership__tag {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .membership__title {
+    font-size: 7rem;
+  }
+
+  .membership__tag {
+    font-size: 1.8rem;
+  }
 }
